@@ -4,7 +4,6 @@
 #include <map>
 #include <set>
 
-
 std::ifstream in("input.txt");
 std::ofstream out("output.txt");
 
@@ -16,7 +15,7 @@ std::string str;
 
 
 bool DFA(std::string& str) {
-	//I assumed that the lambda letters that may appear in our string are noted with '*'
+	//The lambda letters that may appear in our string are noted with '*'
 
 	//check for lambdas in our string
 	str.erase(remove(str.begin(), str.end(), '*'), str.end());
