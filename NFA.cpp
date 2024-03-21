@@ -16,7 +16,7 @@ std::set<int> final_states;
 std::map<int, std::map<char, std::vector<int>>> states;
 
 std::map<int, std::vector<bool>> visited; 
-// This data strcuture helps us not repeating a search 
+// This data structure helps us not repeating a search 
 //	that was already computed on a state at a specific point in time
 
 
